@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>WormBot.Org</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Links -->
+    <link rel="stylesheet" href="css/camera.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/google-map.css">
+
+
+    <!--JS-->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/rd-smoothscroll.min.js"></script>
+
+
+    <!--[if lt IE 9]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src='js/device.min.js'></script>
+  </head>
+  <body>
+  <div class="page">
+  <!--========================================================
+                            HEADER
+  =========================================================-->
+    <header>  
+      <div class="container top-sect">
+        <div class="navbar-header">
+          <h1 class="navbar-brand">
+            <a data-type='rd-navbar-brand'  href="./">WormBot<small>Survival robotics
+                </small></a>
+          </h1>
+          <a class="search-form_toggle" href="#"></a>
+        </div>
+
+        <div class="help-box text-right">
+          <p>Kaeberlein Lab</p>
+          <a href="http://www.kaeberleinlab.org">Homepage</a>
+          <small><span>UW Pathology</span>&nbsp;  Seattle, Washington, USA</small>
+        </div>
+      </div>
+
+
+      <div id="stuck_container" class="stuck_container">
+        <div class="container">   
+        <nav class="navbar navbar-default navbar-static-top pull-left">            
+
+            <div class="">  
+              <ul class="nav navbar-nav sf-menu" data-type="navbar">
+                <li class="active">
+                  <a href="./">HOME</a>
+                </li>
+                <li>
+                  <a href="index-1.html">SOFTWARE</a>
+                </li>
+                <li class="dropdown">
+                  <a href="index-2.html">HARDWARE<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="http://wormbot.org/botforum/viewtopic.php?id=3">Bill of Materials</a>
+                    </li>
+                    <li>
+                      <a href="#">Hardware Overview  </a>                      
+                    </li>
+                    <li>
+                      <a href="#">Conse ctetur </a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a href="#">Latest</a>
+                          </li>
+                          <li>
+                            <a href="#">Archive</a>
+                          </li>                      
+                        </ul>
+                    </li>
+                  </ul>
+                </li>                
+                <li>
+                  <a href="index-3.html">DOCUMENTATION</a>
+                </li>
+                
+                <li>
+                  <a href="http://wormbot.org/botforum">FORUM</a>
+                </li>
+              </ul>                           
+            </div>
+        </nav>   
+        <form class="search-form" action="search.php" method="GET" accept-charset="utf-8">
+          <label class="search-form_label">
+            <input class="search-form_input" type="text" name="s" autocomplete="off" placeholder=""/>
+            <span class="search-form_liveout"></span>
+          </label>
+          <button class="search-form_submit fa-search" type="submit"></button>
+        </form>
+             
+        </div>
+
+      </div>  
+    </header>
+
+  <!--========================================================
+                            CONTENT
+  =========================================================-->
+
+    <main>        
+
+      <section class="well well1 well1_ins1">
+        <div class="camera_container">
+          <div id="camera" class="camera_wrap">
+            <div data-src="images/robot1.png">
+              <div class="camera_caption fadeIn">
+                <div class="jumbotron jumbotron1">
+                  <em>
+                    OPEN SOURCE
+                  </em>
+                  <div class="wrap">
+                    <p>
+                      WormBot is an open hardware and open software robotic microscopy screening platform designed for C. elegans behavior and survival analysis</span>.
+                    </p>
+                    <a href="index-1.html" class="btn-link fa-angle-right"></a>
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <div data-src="images/robot2.png">
+              <div class="camera_caption fadeIn">
+                <div class="jumbotron jumbotron2">
+                  <em>
+                    Low-cost
+                  </em>
+                  <div class="wrap">
+                    <p>
+                      The WormBot system is designed to be extremely inexpensive allowing high-throughput survival assays even in small laboratory settings<span> </span>.
+                    </p>
+                    <a href="#" class="btn-link hov_prime fa-angle-right"></a>
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <div data-src="images/robot3.png">
+              <div class="camera_caption fadeIn">
+                <div class="jumbotron">
+                  <em>
+                    SIMPLE
+                  </em>
+                  <div class="wrap">
+                    <p>
+                      The WormBot uses standard 12-well plates and growth media and relies on a web based interface running on a single linux workstation</span>.
+                    </p>
+                    <a href="#" class="btn-link fa-angle-right"></a>
+                  </div>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      
+      <section class="well well2 wow fadeIn  bg1" data-wow-duration='3s'>
+        <div class="container">
+        <h2 class="txt-pr">
+        wELCOME
+          <small>
+           to WormBot.org
+          </small>
+        </h2>
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <p>
+                This site contains links and information for building the WormBot, an open hardware project designed for automatted survival analysis in <a href="http://wormbase.org/">the nematode C. elegans.</a>  The WormBot is an extremely simple and inexpensive robotics platform that captures timelapse images and realtime movies of nematodes in standard tissue culture plates.  
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <p>
+                  The wormbot was originally conceived in the Kaeberlein lab as an alternative to the <a heref="http://www.lifespanmachine.org">Lifespan Machine</a> that would allow for high throughput screening of survival experiments to be performed in alternative gas environments.  However the flexible nature of the system was attractive to other users and we were encouraged to release it to the wider worm community. The WormBots at UW support both the Kaeberlein and Mendenhall labs as well as the UW Nathan Shock Center Aging Core.  
+                <a href="#" class="btn-link l-h1 fa-angle-right"></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+    </main>
+
+    <!--========================================================
+                            FOOTER
+  =========================================================-->
+  <footer class="top-border">
+
+   
+    <section class="well1">
+      <div class="container"> 
+            <p class="rights">
+              WormBot  &#169; <span id="copyright-year"></span>
+              <a href="http://www.kaeberleinlab.org">Kaeberlein Lab</a>
+              
+            </p>          
+      </div> 
+    </section>    
+  </footer>
+  </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->         
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tm-scripts.js"></script>    
+  <!-- </script> -->
+
+
+  </body>
+</html>
